@@ -15,6 +15,7 @@ export default function Cart({ cart, products, onCheckout }) {
   return (
     <section
       id="cart"
+      className='active'
       role="region"
       aria-live="polite"
       aria-label="Seu carrinho de compras"

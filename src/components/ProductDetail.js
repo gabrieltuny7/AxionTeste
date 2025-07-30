@@ -11,6 +11,7 @@ export default function ProductDetail({ product, onAddToCart, onClose }) {
   return (
     <section
       id="product-detail"
+      className="active"
       role="region"
       aria-live="polite"
       aria-hidden={!product}
@@ -77,7 +78,7 @@ export default function ProductDetail({ product, onAddToCart, onClose }) {
         >
           {selectedSize
             ? `Adicionar ao carrinho (Tamanho ${selectedSize})`
-            : 'Selecione um tamanho'}
+            : 'Selecione a quantidade de páginas'}
         </button>
 
         <div className="price">{formatPrice(product.price)}</div>

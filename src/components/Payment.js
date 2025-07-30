@@ -10,6 +10,7 @@ export default function Payment({ onSuccess }) {
   return (
     <section
       id="payment"
+      className="active"
       role="region"
       aria-live="polite"
       aria-label="Página de pagamento"
